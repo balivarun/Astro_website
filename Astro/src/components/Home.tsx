@@ -13,7 +13,9 @@ const Home = () => {
       <div className=" text-7xl font-extrabold -translate-y-100" style={{ color: "#FF5F15" }}>
         Rahul Bali Astrology
       </div>
-     
+     <div>
+      v
+     </div>
     </div>
   );
 };
