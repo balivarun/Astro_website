@@ -19,7 +19,10 @@ const Home = () => {
       <a href='#about' className='text-2xl font-medium text-black hover:text-gray-700' style={{ textDecoration: 'none' }}>About</a>
     </div>
     <div className='flex flex-col items-center justify-center gap-4 -translate-y-40'>
-      <button className='bg-[#FFAC1C] hover:bg-[#FF5F15] text-black text-xl py-4 px-5 rounded-5 font-bold'>Book a Consultation</button>
+    <button className='bg-[#FFAC1C] hover:bg-[#FF5F15] text-black text-xl py-4 px-5 rounded-5 font-bold hover:shadow-xl hover:shadow-orange-500'>
+        Book a Consultation
+      </button>
+      <p className="font-medium text-sl">Note: Please note that email responses may require additional time.</p>
     </div>
     </div>
   );
