@@ -1,5 +1,4 @@
 
-import React from 'react';
 
 const Home = () => {
 
@@ -7,10 +6,10 @@ const Home = () => {
     <div className='bg-orange-200 h-screen flex
       flex-col items-center justify-center text-center bg-cover bg-center relative' style={{ backgroundImage: `url('/images/background3.webp')`, backgroundSize: 'cover' }}>
        <div className="absolute inset-0 bg-white opacity-40"></div>
-       <div className='text-2xl font-semibold -translate-y-65 ' style={{ color: "#FF0000" }}>
+       <div className='text-2xl font-semibold -translate-y-55 ' style={{ color: "#FF0000" }}>
         ।। ॐ नमो भगवते वासुदेवाय नम: ।।
       </div>
-      <div className=" text-7xl font-extrabold -translate-y-100" style={{ color: "#FF5F15" }}>
+      <div className=" text-7xl font-extrabold -translate-y-85" style={{ color: "#FF5F15" }}>
         Rahul Bali Astrology
       </div>
      <div className='relative z-10 flex flex-row gap-70 -translate-y-55'>
