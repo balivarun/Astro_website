@@ -22,7 +22,7 @@ const Home = () => {
     <button className='bg-[#FFAC1C] hover:bg-[#FF5F15] text-black text-xl py-4 px-5 rounded-5 font-bold hover:shadow-xl hover:shadow-orange-500'>
         Book a Consultation
       </button>
-      <p className="font-medium text-sl">Note: Please note that email responses may require additional time.</p>
+      <p className="font-medium text-sl text-red-500 animate-pulse" style={{color:"#FF5F15"}}>Note : Please note that email responses may require additional time.</p>
     </div>
     </div>
   );
